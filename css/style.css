@@ -1,0 +1,26 @@
+body {
+	background-color: black;
+}
+* {
+	outline: red 1px solid;
+}
+.main {
+	background-color: white;
+	margin-top: 110px;
+	padding-left: 100px;
+	min-width: 1200px;
+	height: 500px;
+	position: relative;
+	z-index: 1;
+}
+.the-gang,
+.scooby-ghost {
+	width: 659px;
+	height: 494px;
+}
+.the-gang {
+	float: left;
+}
+.scooby-ghost {
+	float: right;
+}
