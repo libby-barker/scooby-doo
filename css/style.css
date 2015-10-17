@@ -24,20 +24,24 @@ body {
 	float: right;
 }
 .scooby-car,
-.scooby-scared,
-.scooby-ghost {
-	/*comment out*/
-	/*display: none;*/
+.scooby-ghost,
+.scooby-scared {
+	display: none;
 }
 .scooby-casual {
-	background-image: url('scooby-doo/images/scooby-casual.jpg');
+	padding-top: 207px;
+	padding-left: 77px;
 }
 .scooby-car {
-	background-image: url('..images/scooby-car.jpg');
+	padding-top: 134px;
+	padding-left: 124px;
+}
+.scooby-ghost {
+	padding-top: none;
+	padding-left: 145px;
 }
 .scooby-scared {
-	background-image: url('..images/scooby-scared.gif');
+	padding-top: 194px;
+	padding-bottom: 50px;
 }
-.the-ghost {
-	background-image: url('..images/scooby-ghost.gif');
-}
+
