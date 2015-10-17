@@ -7,20 +7,37 @@ body {
 .main {
 	background-color: white;
 	margin-top: 110px;
-	padding-left: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
 	min-width: 1200px;
 	height: 500px;
 	position: relative;
 	z-index: 1;
 }
 .the-gang,
-.scooby-ghost {
+.the-ghost {
 	width: 659px;
 	height: 494px;
+	display: inline-block;
 }
-.the-gang {
-	float: left;
-}
-.scooby-ghost {
+.the-ghost {
 	float: right;
+}
+.scooby-car,
+.scooby-scared,
+.scooby-ghost {
+	/*comment out*/
+	/*display: none;*/
+}
+.scooby-casual {
+	background-image: url('scooby-doo/images/scooby-casual.jpg');
+}
+.scooby-car {
+	background-image: url('..images/scooby-car.jpg');
+}
+.scooby-scared {
+	background-image: url('..images/scooby-scared.gif');
+}
+.the-ghost {
+	background-image: url('..images/scooby-ghost.gif');
 }
